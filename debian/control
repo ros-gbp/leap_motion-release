@@ -1,0 +1,12 @@
+Source: ros-groovy-leap-motion
+Section: misc
+Priority: extra
+Maintainer: Florian Lier <flier@techfak.uni-bielefeld.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-message-generation, ros-groovy-roscpp, ros-groovy-rospy, ros-groovy-std-msgs
+Homepage: https://wiki.ros.org/leap_motion
+Standards-Version: 3.9.2
+
+Package: ros-groovy-leap-motion
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-geometry-msgs, ros-groovy-message-runtime, ros-groovy-roscpp, ros-groovy-rospy, ros-groovy-std-msgs
+Description: ROS driver for the Leap Motion gesture sensor
