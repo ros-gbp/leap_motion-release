@@ -1,3 +1,22 @@
+## rosleapmotion - 0.0.4-0
+
+User `shah@lovelace` released the packages in the `rosleapmotion` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy rosleapmotion` on `Sat, 26 Oct 2013 21:55:19 -0000`
+
+The `leap_motion` package was released.
+
+Version of package(s) in repository `rosleapmotion`:
+- rosdistro version: `0.0.3-4`
+- old version: `0.0.3-4`
+- new version: `0.0.4-0`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.21`
+- rosdep version: `0.10.22`
+- rosdistro version: `0.2.14`
+- vcstools version: `0.1.31`
+
+
 ## rosleapmotion - 0.0.3-4
 
 User `shah@lovelace` released the packages in the `rosleapmotion` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy rosleapmotion` on `Sat, 26 Oct 2013 03:32:51 -0000`
