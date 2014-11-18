@@ -1,3 +1,24 @@
+## leap_motion (hydro) - 0.0.6-0
+
+The packages in the `leap_motion` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro leap_motion --edit` on `Tue, 18 Nov 2014 05:46:08 -0000`
+
+The `leap_motion` package was released.
+
+Version of package(s) in repository `leap_motion`:
+- upstream repository: https://github.com/ros-drivers/leap_motion
+- release repository: https://github.com/ros-gbp/leap_motion-release.git
+- rosdistro version: `0.0.4-0`
+- old version: `0.0.4-1`
+- new version: `0.0.6-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.32`
+- rosdistro version: `0.3.6`
+- vcstools version: `0.1.35`
+
+
 ## leap_motion (hydro) - 0.0.4-1
 
 The packages in the `leap_motion` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro leap_motion` on `Tue, 18 Nov 2014 05:11:06 -0000`
