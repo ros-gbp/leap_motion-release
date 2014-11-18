@@ -39,5 +39,5 @@ tracks:
     release_tag: :{version}
     ros_distro: hydro
     vcs_type: git
-    vcs_uri: https://github.com/mirzashah/rosleapmotion
+    vcs_uri: https://github.com/ros-drivers/leap_motion
     version: :{auto}
