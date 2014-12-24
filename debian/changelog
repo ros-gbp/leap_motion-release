@@ -1,0 +1,39 @@
+ros-hydro-leap-motion (0.0.7-0precise) precise; urgency=high
+
+  * Build some binaries only when SDK is installed (Fix to https://github.com/ros-drivers/leap_motion/issues/7).
+  * Contributors: Isaac I.Y. Saito, Yu Ohara
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Wed, 24 Dec 2014 08:00:00 -0000
+
+ros-hydro-leap-motion (0.0.6-0precise) precise; urgency=high
+
+  * Fix typo in dependency. #5 <https://github.com/ros-drivers/leap_motion/issues/5> from 130s/typo_dependency
+  * Contributors: Isaac IY Saito
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Tue, 18 Nov 2014 08:00:00 -0000
+
+ros-hydro-leap-motion (0.0.5-0precise) precise; urgency=high
+
+  * Enhancements for skeleton/finger tf frame publishing as well as code cleanup
+  * Code cleanup
+  * skeleton sender added
+  * Adjusted to new LeapMotion API (Fall 2013)
+  * Changed license to BSD
+  * Contributors: Florian Lier, Igor Zubrycki, Mirza Shah, Isaac IY Saito
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Mon, 17 Nov 2014 08:00:00 -0000
+
+ros-hydro-leap-motion (0.0.4-0precise) precise; urgency=high
+
+
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Mon, 28 Oct 2013 07:00:00 -0000
+
+ros-hydro-leap-motion (0.0.3-0precise) precise; urgency=high
+
+  * Initial release as ROS package.
+  * Provides basic publisher for Leap Motion device.
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Thu, 24 Oct 2013 07:00:00 -0000
+
+
