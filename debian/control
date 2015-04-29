@@ -1,0 +1,12 @@
+Source: ros-hydro-leap-motion
+Section: misc
+Priority: extra
+Maintainer: Florian Lier <flier@techfak.uni-bielefeld.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-camera-calibration-parsers, ros-hydro-camera-info-manager, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-image-transport, ros-hydro-message-generation, ros-hydro-roscpp, ros-hydro-roslib, ros-hydro-rospack, ros-hydro-rospy, ros-hydro-std-msgs, ros-hydro-visualization-msgs
+Homepage: https://wiki.ros.org/leap_motion
+Standards-Version: 3.9.2
+
+Package: ros-hydro-leap-motion
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-camera-calibration-parsers, ros-hydro-camera-info-manager, ros-hydro-geometry-msgs, ros-hydro-image-transport, ros-hydro-message-runtime, ros-hydro-roscpp, ros-hydro-roslib, ros-hydro-rospack, ros-hydro-rospy, ros-hydro-std-msgs, ros-hydro-visualization-msgs
+Description: ROS driver for the Leap Motion gesture sensor
