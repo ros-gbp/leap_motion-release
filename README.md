@@ -1,3 +1,24 @@
+## leap_motion (indigo) - 0.0.9-0
+
+The packages in the `leap_motion` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo leap_motion` on `Mon, 14 Dec 2015 08:02:00 -0000`
+
+The `leap_motion` package was released.
+
+Version of package(s) in repository `leap_motion`:
+- upstream repository: https://github.com/ros-drivers/leap_motion
+- release repository: https://github.com/ros-gbp/leap_motion-release.git
+- rosdistro version: `0.0.8-1`
+- old version: `0.0.8-1`
+- new version: `0.0.9-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## leap_motion (indigo) - 0.0.8-1
 
 The packages in the `leap_motion` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo leap_motion` on `Sun, 03 May 2015 22:53:05 -0000`
