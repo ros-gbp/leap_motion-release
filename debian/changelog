@@ -1,0 +1,65 @@
+ros-kinetic-leap-motion (0.0.10-0xenial) xenial; urgency=high
+
+  * [fix][sys] launch and camera_info directory should be installed
+    [fix][sys] a bug of the check method of LEAP_SDK environment value #27 <https://github.com/ros-drivers/leap_motion/issues/28>
+  * [sys] Add tests #25 <https://github.com/ros-drivers/leap_motion/issues/25>
+  * Contributors: Kenta Yonekura, Isaac I.Y. Saito
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Sat, 18 Jun 2016 07:00:00 -0000
+
+ros-kinetic-leap-motion (0.0.9-0xenial) xenial; urgency=high
+
+  * [feat] Added individual coordinates for each finger bone (#23 <https://github.com/ros-drivers/leap_motion/issues/23>)
+  * [feat] Better way of parameter declaration (#17 <https://github.com/ros-drivers/leap_motion/issues/17>)
+  * [sys] Update travis conf to Ubuntu Trusty and ROS I-J (#22 <https://github.com/ros-drivers/leap_motion/issues/22>)
+  * Contributors: Isaac I.Y. Saito, Tu-Hoa Pham
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Mon, 14 Dec 2015 08:00:00 -0000
+
+ros-kinetic-leap-motion (0.0.8-0xenial) xenial; urgency=high
+
+  * (Feature) Take ROS msg publish frequency from commandline, set it to Parameter Server
+  * (Maintenance) Add unittest structure.
+  * Contributors: Isaac I.Y. Saito
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Thu, 30 Apr 2015 07:00:00 -0000
+
+ros-kinetic-leap-motion (0.0.7-0xenial) xenial; urgency=high
+
+  * Build some binaries only when SDK is installed (Fix to https://github.com/ros-drivers/leap_motion/issues/7).
+  * Contributors: Isaac I.Y. Saito, Yu Ohara
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Wed, 24 Dec 2014 08:00:00 -0000
+
+ros-kinetic-leap-motion (0.0.6-0xenial) xenial; urgency=high
+
+  * Fix typo in dependency. #5 <https://github.com/ros-drivers/leap_motion/issues/5> from 130s/typo_dependency
+  * Contributors: Isaac IY Saito
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Tue, 18 Nov 2014 08:00:00 -0000
+
+ros-kinetic-leap-motion (0.0.5-0xenial) xenial; urgency=high
+
+  * Enhancements for skeleton/finger tf frame publishing as well as code cleanup
+  * Code cleanup
+  * skeleton sender added
+  * Adjusted to new LeapMotion API (Fall 2013)
+  * Changed license to BSD
+  * Contributors: Florian Lier, Igor Zubrycki, Mirza Shah, Isaac IY Saito
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Mon, 17 Nov 2014 08:00:00 -0000
+
+ros-kinetic-leap-motion (0.0.4-0xenial) xenial; urgency=high
+
+
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Mon, 28 Oct 2013 07:00:00 -0000
+
+ros-kinetic-leap-motion (0.0.3-0xenial) xenial; urgency=high
+
+  * Initial release as ROS package.
+  * Provides basic publisher for Leap Motion device.
+
+ -- Florian Lier <flier@techfak.uni-bielefeld.de>  Thu, 24 Oct 2013 07:00:00 -0000
+
+
