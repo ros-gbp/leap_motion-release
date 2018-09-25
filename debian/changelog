@@ -1,0 +1,88 @@
+ros-melodic-leap-motion (0.0.13-0bionic) bionic; urgency=high
+
+  * Reimplementation of the entire Leap Motion driver for ROS
+  * Old implementation of the driver is now deprecated and will be removed in a year.
+  * Contributors: Isaac I.Y. Saito, nowittyusername
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Mon, 24 Sep 2018 21:00:00 -0000
+
+ros-melodic-leap-motion (0.0.12-0bionic) bionic; urgency=high
+
+  * Reimplementation of the entire Leap Motion driver for ROS
+  * Old implementation of the driver is now deprecated and will be removed in a year.
+  * Contributors: Nowittyusername
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Mon, 05 Mar 2018 22:00:00 -0000
+
+ros-melodic-leap-motion (0.0.11-0bionic) bionic; urgency=high
+
+  * [fix] ROS Hydro onward requires queue_size option #31 <https://github.com/ros-drivers/leap_motion/issues/31>
+  * Contributors: Kei Okada
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Fri, 13 Jan 2017 22:00:00 -0000
+
+ros-melodic-leap-motion (0.0.10-0bionic) bionic; urgency=high
+
+  * [fix][sys] launch and camera_info directory should be installed
+    [fix][sys] a bug of the check method of LEAP_SDK environment value #27 <https://github.com/ros-drivers/leap_motion/issues/28>
+  * [sys] Add tests #25 <https://github.com/ros-drivers/leap_motion/issues/25>
+  * Contributors: Kenta Yonekura, Isaac I.Y. Saito
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Fri, 17 Jun 2016 21:00:00 -0000
+
+ros-melodic-leap-motion (0.0.9-0bionic) bionic; urgency=high
+
+  * [feat] Added individual coordinates for each finger bone (#23 <https://github.com/ros-drivers/leap_motion/issues/23>)
+  * [feat] Better way of parameter declaration (#17 <https://github.com/ros-drivers/leap_motion/issues/17>)
+  * [sys] Update travis conf to Ubuntu Trusty and ROS I-J (#22 <https://github.com/ros-drivers/leap_motion/issues/22>)
+  * Contributors: Isaac I.Y. Saito, Tu-Hoa Pham
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Sun, 13 Dec 2015 22:00:00 -0000
+
+ros-melodic-leap-motion (0.0.8-0bionic) bionic; urgency=high
+
+  * (Feature) Take ROS msg publish frequency from commandline, set it to Parameter Server
+  * (Maintenance) Add unittest structure.
+  * Contributors: Isaac I.Y. Saito
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Wed, 29 Apr 2015 21:00:00 -0000
+
+ros-melodic-leap-motion (0.0.7-0bionic) bionic; urgency=high
+
+  * Build some binaries only when SDK is installed (Fix to https://github.com/ros-drivers/leap_motion/issues/7).
+  * Contributors: Isaac I.Y. Saito, Yu Ohara
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Tue, 23 Dec 2014 22:00:00 -0000
+
+ros-melodic-leap-motion (0.0.6-0bionic) bionic; urgency=high
+
+  * Fix typo in dependency. #5 <https://github.com/ros-drivers/leap_motion/issues/5> from 130s/typo_dependency
+  * Contributors: Isaac IY Saito
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Mon, 17 Nov 2014 22:00:00 -0000
+
+ros-melodic-leap-motion (0.0.5-0bionic) bionic; urgency=high
+
+  * Enhancements for skeleton/finger tf frame publishing as well as code cleanup
+  * Code cleanup
+  * skeleton sender added
+  * Adjusted to new LeapMotion API (Fall 2013)
+  * Changed license to BSD
+  * Contributors: Florian Lier, Igor Zubrycki, Mirza Shah, Isaac IY Saito
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Sun, 16 Nov 2014 22:00:00 -0000
+
+ros-melodic-leap-motion (0.0.4-0bionic) bionic; urgency=high
+
+
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Sun, 27 Oct 2013 22:00:00 -0000
+
+ros-melodic-leap-motion (0.0.3-0bionic) bionic; urgency=high
+
+  * Initial release as ROS package.
+  * Provides basic publisher for Leap Motion device.
+
+ -- Nowittyusername <nowittyusername@hotmail.com>  Wed, 23 Oct 2013 21:00:00 -0000
+
+
