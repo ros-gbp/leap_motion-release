@@ -1,0 +1,12 @@
+Source: ros-kinetic-leap-motion
+Section: misc
+Priority: extra
+Maintainer: Nowittyusername <nowittyusername@hotmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-camera-calibration-parsers, ros-kinetic-camera-info-manager, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-image-transport, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospack, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Homepage: https://wiki.ros.org/leap_motion
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-leap-motion
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-camera-calibration-parsers, ros-kinetic-camera-info-manager, ros-kinetic-geometry-msgs, ros-kinetic-image-transport, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospack, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Description: ROS driver for the Leap Motion gesture sensor
