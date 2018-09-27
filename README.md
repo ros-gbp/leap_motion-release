@@ -1,3 +1,26 @@
+## leap_motion (kinetic) - 0.0.14-0
+
+The packages in the `leap_motion` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release leap_motion --rosdistro kinetic` on `Thu, 27 Sep 2018 11:29:15 -0000`
+
+The `leap_motion` package was released.
+
+Version of package(s) in repository `leap_motion`:
+
+- upstream repository: https://github.com/ros-drivers/leap_motion
+- release repository: https://github.com/ros-gbp/leap_motion-release.git
+- rosdistro version: `0.0.13-0`
+- old version: `0.0.13-0`
+- new version: `0.0.14-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.7`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## leap_motion (melodic) - 0.0.13-0
 
 The packages in the `leap_motion` repository were released into the `melodic` distro by running `/usr/bin/bloom-release leap_motion --track melodic --rosdistro melodic --new-track` on `Tue, 25 Sep 2018 14:17:45 -0000`
